@@ -1,0 +1,24 @@
+.lamp {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 40px auto;
+  }
+  
+  .lamp.on {
+    background-color: yellow;
+    border: 10px solid orange;
+  }
+  
+  .lamp.off {
+    background-color: grey;
+    border: 10px solid black;
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }

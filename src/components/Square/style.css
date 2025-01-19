@@ -1,0 +1,16 @@
+.square {
+  background-color: yellowgreen;
+  border: 2px solid green;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+.button {
+  display: block;
+  background-color: aquamarine;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
