@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./style.css";
+
 class Square extends Component {
   componentDidMount() {
     console.log("Square: Component did mount");

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Lamp from "./components/Lamp";
 import Dialog from "./components/Dialog";
 import Square from "./components/Square";
+import ToDoList from "./ToDoList/ToDoList";
 
 // const App = () => {
 //   return (
@@ -10,8 +11,6 @@ import Square from "./components/Square";
 //     </div>
 //   );
 // };
-
-
 
 // const App = () => {
 //   return (
@@ -22,22 +21,27 @@ import Square from "./components/Square";
 //   );
 // };
 
+// const App = () => {
+//   const [showSquare, setShowSquare] = useState(false);
 
-
+//   const toggleSquare = () => {
+//     setShowSquare((prev) => !prev);
+//   };
+//   return (
+//     <div>
+//       <h1>Toggle Square Component</h1>
+//       <button className="button" onClick={toggleSquare}>
+//         {showSquare ? "Hide Square" : "Show Square"}
+//       </button>
+//       {showSquare && <Square />}
+//     </div>
+//   );
+// };
 
 const App = () => {
-  const [showSquare, setShowSquare] = useState(false);
-
-  const toggleSquare = () => {
-    setShowSquare((prev) => !prev);
-  };
   return (
-    <div>
-      <h1>Toggle Square Component</h1>
-      <button className="button" onClick={toggleSquare}>
-        {showSquare ? "Hide Square" : "Show Square"}
-      </button>
-      {showSquare && <Square />}
+    <div className="app">
+      <ToDoList />
     </div>
   );
 };
